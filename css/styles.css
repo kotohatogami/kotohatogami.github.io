@@ -4,7 +4,6 @@ body {
 
 h1 {
     font-family: 'Cormorant Garamond';
-    font-weight: bold;
 }
 
 h2, h3, h4, h5, h6 {
@@ -140,7 +139,7 @@ a::hover {
 }
 
 .profile-pic {
-    width: 500px;
+    width: 450px;
     height: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
