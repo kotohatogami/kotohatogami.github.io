@@ -74,7 +74,7 @@ a::hover {
 }
 
 .big-heading {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Cormorant Garamond', cursive;
     /* color: #2C3333; */
     color: #E7F6F2;
     margin: 15% auto auto;
@@ -117,7 +117,7 @@ a::hover {
 #title {
     /* background-image: url("../images/space-home.jpeg"); */
     text-align: center;
-    background-color: #2C3333;
+    background-color: #315f94;
     height: 100vh;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ a::hover {
 }
 
 .profile-pic {
-    width: 400px;
+    width: 500px;
     height: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
