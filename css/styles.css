@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-family: 'Cormorant Garamond', cursive;
+    font-family: 'Cormorant Garamond';
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ a::hover {
 }
 
 .big-heading {
-    font-family: 'Cormorant Garamond', cursive;
+    font-family: 'Cormorant Garamond';
     /* color: #2C3333; */
     color: #E7F6F2;
     margin: 15% auto auto;
