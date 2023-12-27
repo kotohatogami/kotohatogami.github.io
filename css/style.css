@@ -1,0 +1,283 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Prompt', sans-serif;
+    color: #495C83;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+#nav {
+    left: 0%;
+    right: 0%;
+    background-color: #2B4865;
+    position: fixed;
+    top: -75px;
+    display: block;
+    transition: top 0.4s;
+    box-shadow: 2px 2px 5px black;
+    z-index: 1;
+}
+
+.nav-item {
+    color: #E7F6F2;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+a::hover {
+    color: white;
+}
+
+.nav-item:first-child {
+    float: left;
+    font-weight: 500;
+}
+
+.nav-item::hover {
+    color: #2a2d34;
+    transition: 0.5s;
+}
+
+.nav-item:hover:after {
+    transform: scaleX(1);
+}
+
+.nav-item::after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #d3cbf5;
+    transform: scaleX(0);
+    transition: 350ms ease-in-out;
+    transform-origin: 0% 50%;
+}
+
+/* Headings */
+.moon-heading {
+    margin: auto;
+}
+
+.intro {
+    display: flex;
+}
+
+.big-heading {
+    font-family: 'Sacramento', cursive;
+    /* color: #2C3333; */
+    color: #E7F6F2;
+    margin: 15% auto auto;
+    font-size: 6rem;
+    max-width: 100%;
+
+}
+
+.small-heading {
+    /* color: #395B64; */
+    color: #A5C9CA;
+    font-size: 2.5rem;
+    margin: 10% auto;
+    font-family: 'Prompt', sans-serif;
+    overflow: hidden;
+}
+
+.intro h2 span.cursor {
+    color: #395B64;
+    display: inline-block;
+    background-color: #395B64;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 0.8s infinite;
+}
+
+.intro h2 span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #395B64; }
+  49% { background-color: #395B64; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #395B64; }
+}
+
+/* Title Section */
+#title {
+    /* background-image: url("../images/space-home.jpeg"); */
+    text-align: center;
+    background-color: #2C3333;
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Section */
+.about-div {
+    text-align: center;
+    background-color: #395B64;
+    position: relative;
+    border-width: 10px;
+    border-color: black;
+}
+
+.about-header {
+    color: #A5C9CA;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#console {
+    margin: 40px;
+    margin-top: 20px;
+    padding: 30px;
+    overflow-y: auto;
+    line-height: 22px;
+    height: 500px;
+    width: 550px;
+    font-size: 90%;
+    font-family: Monaco,monospace;
+    border-top: 20px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #2a2d34;
+    box-shadow: 12px 12px 1px #d7d3e7;
+}
+
+#console a {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: left;
+}
+
+.first-color {
+    color: #ffa500;
+}
+
+.second-color {
+    color: white;
+}
+
+.third-color {
+    color: #B2A4FF;
+}
+
+.fourth-color {
+    color: #FF06B7;
+}
+
+.fifth-color {
+    color: #90C8AC;
+}
+
+.sixth-color {
+    color: #CA82FF;
+}
+
+.seventh-color {
+    color: #5FD068;
+}
+
+.eighth-color {
+    color: #FBCB0A;
+}
+
+.ninth-color {
+    color: #81CACF;
+}
+
+/* Projects */
+#projects {
+    text-align: center;
+    background-color: #2C3333;
+}
+
+.projects-heading {
+    color: #A5C9CA;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.card-img-top {
+    background-color: black;
+    border: 5px solid;
+}
+
+.card-deck {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media (max-width: 575.98px) {
+    .card-deck {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.card p {
+    color: #C1EFFF;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    color: #C1EFFF;
+    font-size: 1.6rem;
+}
+
+.card-footer button {
+    color: #C1EFFF;
+}
+
+.card-deck {
+    padding-bottom: 40px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #395B64;
+    text-align: center;
+}
+
+.footer-items {
+    padding: 30px 10px 10px;
+}
+
+.footer {
+    padding-top: 20px;
+    color: #A5C9CA;
+}
+
+.footer-link {
+    color: #A5C9CA;
+}
