@@ -1,0 +1,26 @@
+.typing {
+    color: #E7F6F2;
+    font-size: 2.5rem;
+    margin: 50px auto 400px 0px;
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+}
+
+.typing::after {
+    content: "";
+    right: -5px;
+    position: absolute;
+    width: 1px;
+    height: 95%;
+    border-right: 2px solid #E7F6F2;
+    animation: blink 1s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
