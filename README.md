@@ -1,4 +1,4 @@
-# Portfolio Website
+# Personal Website
 Hi, I'm Kotoha! Welcome to my website.
 
 A little bit about me...  
