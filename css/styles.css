@@ -116,7 +116,7 @@ a::hover {
 #title {
     /* background-image: url("../images/space-home.jpeg"); */
     text-align: center;
-    background-color: #275796;
+    background-color: #01458f;
     height: 100vh;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ a::hover {
 /* About Section */
 .about-div {
     text-align: center;
-    background-color: #438bbf;
+    background-color: #275796;
     position: relative;
     border-width: 10px;
     border-color: black;
